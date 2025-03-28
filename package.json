@@ -1,5 +1,6 @@
 {
   "name": "dogfeed",
+  "type": "module",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -14,5 +15,9 @@
   "devDependencies": {
     "@types/node": "^22.13.14",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "fast-glob": "^3.3.3"
   }
 }
