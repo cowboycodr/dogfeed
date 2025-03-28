@@ -15,7 +15,9 @@
   "files": [
     "dist/bin.js"
   ],
-  "bin": "dist/bin.js",
+  "bin": {
+    "dogfeed": "dist/bin.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
