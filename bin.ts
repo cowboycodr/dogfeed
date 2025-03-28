@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as path from "node:path";
 import process from "node:process";
 import { readFile } from "fs/promises";
