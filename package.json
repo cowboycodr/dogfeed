@@ -12,6 +12,9 @@
     "*.{js,ts,json}": "prettier --write",
     "*.{js,ts}": "eslint --cache --fix"
   },
+  "files": [
+    "dist/bin.js"
+  ],
   "bin": "dist/bin.js",
   "keywords": [],
   "author": "",
