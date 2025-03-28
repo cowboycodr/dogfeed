@@ -7,10 +7,7 @@ import clipboard from "clipboardy";
 
 const targetDir = process.argv[2] || process.cwd();
 const gitignorePath = path.join(targetDir, ".gitignore");
-let gitignoreContent = "";
-try {
-  gitignoreContent = await readFile(gitignorePath, "utf-8");
-} catch {}
+const gitignoreContent = await readFile(gitignorePath, "utf-8");
 
 const gitignore = gitignoreContent
   .split("\n")
